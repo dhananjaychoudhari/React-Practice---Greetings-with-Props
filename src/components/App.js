@@ -2,11 +2,8 @@ import React from "react";
 import '../styles/App.css';
 import Welcome from './Welcome';
 
-const App = () => {
+export default function App(){
   return (
-    <Welcome name="" />
-  )
+    <Welcome name="Renuka" />
+  );
 }
-
-
-export default App;
